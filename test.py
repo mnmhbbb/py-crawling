@@ -14,3 +14,4 @@ for code in codes:
   soup = BeautifulSoup(html, 'html.parser')
   price = soup.select_one('#_nowVal').text
   print(price)
+
